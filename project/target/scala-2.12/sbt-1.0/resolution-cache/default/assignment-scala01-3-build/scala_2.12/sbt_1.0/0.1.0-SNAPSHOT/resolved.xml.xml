@@ -4,7 +4,7 @@
 		module="assignment-scala01-3-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180110180533"
+		publication="20180110183017"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

@@ -1,19 +1,27 @@
-
 class MathOperation {
-  def mergeAddValue(list1: List[Int], list2: List[Int]) = {
+  def mergeAddValue(list1: List[Int], list2: List[Int]): List[Int] = {
     list1 zip list2 map {
       case (firstListValue, secondListValue) => firstListValue + secondListValue
     }
   }
 
-  def fibonacciSeries(index: Int, preElement: Int = -1, nextElement: Int = 1) {
-    if (index == 0) {
-      return
+  def fibonacciSeries(index: Int) {
+    def fiboKth(index: Int, preElement: Int = 0, nextElement: Int = 1): Int = {
+      if (index == 1) {
+        0
+      }
+      else if (index == 2) {
+        nextElement
+      }
+      else {
+        fiboKth(index - 1, nextElement, nextElement + preElement)
+      }
     }
-    if (index > 0) {
-      print(nextElement + preElement + ",")
+
+    for (number <- 1 until index) {
+      print(fiboKth(number) + ",")
     }
-    fibonacciSeries(index - 1, nextElement, preElement + nextElement)
+    print(fiboKth(index))
   }
 
   def area(shape: String, first: Int, second: Int): String = {
@@ -42,8 +50,12 @@ class MathOperation {
     }
   }
 
-  def nthListElement(x: Int, list: List[Int]): Int = {
-    list(x)
+  def nthListElement(index: Int, list: List[Int]): Int = {
+    index match {
+      case 0 => list.head
+      case _ => nthListElement(index - 1, list.tail)
+    }
+
   }
 
   def doubleListElement(list: List[Int]): List[Int] = {

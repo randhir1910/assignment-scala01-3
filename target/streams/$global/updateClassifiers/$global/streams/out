@@ -40,7 +40,7 @@
 [debug] == resolving dependencies for default#assignment-scala01-3$sources;0.1 [scala-tool]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] :: resolution report :: resolve 3ms :: artifacts dl 1ms
+[debug] :: resolution report :: resolve 9ms :: artifacts dl 1ms
 [debug] 	report for default#assignment-scala01-3$sources;0.1 compile produced in /home/knoldus/Downloads/assignment-scala01-3/target/scala-2.12/resolution-cache/reports/default-assignment-scala01-3$sources-compile.xml
 [debug] 	report for default#assignment-scala01-3$sources;0.1 runtime produced in /home/knoldus/Downloads/assignment-scala01-3/target/scala-2.12/resolution-cache/reports/default-assignment-scala01-3$sources-runtime.xml
 [debug] 	report for default#assignment-scala01-3$sources;0.1 test produced in /home/knoldus/Downloads/assignment-scala01-3/target/scala-2.12/resolution-cache/reports/default-assignment-scala01-3$sources-test.xml
@@ -52,4 +52,4 @@
 [debug] 	report for default#assignment-scala01-3$sources;0.1 plugin produced in /home/knoldus/Downloads/assignment-scala01-3/target/scala-2.12/resolution-cache/reports/default-assignment-scala01-3$sources-plugin.xml
 [debug] 	report for default#assignment-scala01-3$sources;0.1 pom produced in /home/knoldus/Downloads/assignment-scala01-3/target/scala-2.12/resolution-cache/reports/default-assignment-scala01-3$sources-pom.xml
 [debug] 	report for default#assignment-scala01-3$sources;0.1 scala-tool produced in /home/knoldus/Downloads/assignment-scala01-3/target/scala-2.12/resolution-cache/reports/default-assignment-scala01-3$sources-scala-tool.xml
-[debug] 	resolve done (3ms resolve - 1ms download)
+[debug] 	resolve done (9ms resolve - 1ms download)
